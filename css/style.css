@@ -1,27 +1,30 @@
 @font-face {
 	font-family: 'SupernaturalKnight';
 	src: url(../fonts/SupernaturalKnight.woff2) format('woff2'),
-		  url(../fonts/SupernaturalKnight.woff) format('woff');
-		font-weight: 400;
-		font-style: normal;
-		font-display: swap;
-	  }
+		url(../fonts/SupernaturalKnight.woff) format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
 
 body {
 	padding: 50px;
 	font-family: Arial, Helvetica, sans-serif
 }
+
 [class*='__container'] {
 	max-width: 800px;
 	margin: 0 auto;
 
-}	
+}
+
 .wrapper {
 	position: relative;
 	overflow: hidden;
-	min-height: 100%;	
+	min-height: 100%;
 	padding: 5px;
 }
+
 .header {
 	position: fixed;
 	width: 100%;
@@ -31,31 +34,37 @@ body {
 	background-color: yellowgreen;
 	z-index: 100px;
 }
-.header__container {
-}
-.header__menu {
-}
+
+.header__container {}
+
+.header__menu {}
+
 .menu {
 	font-size: 0;
 }
+
 .menu__item {
 	position: relative;
 	display: inline-block;
 }
+
 .menu__item:not(:last-child) {
-	margin-right: 40px;	
+	margin-right: 40px;
 }
+
 .menu__item:hover .sub-menu {
 	opacity: 1;
 	visibility: visible;
 	top: 100%;
 }
+
 .menu__link {
 	display: inline-block;
 	padding: 5px 0px;
 	font-size: 16px;
 	color: #fff;
 }
+
 .sub-menu {
 	position: absolute;
 	background-color: #77608d;
@@ -67,11 +76,13 @@ body {
 	visibility: hidden;
 	transition: all 0.3s ease;
 }
-.sub-menu__item {
-}
+
+.sub-menu__item {}
+
 .sub-menu__item:not(:last-child) {
 	margin-bottom: 10px;
 }
+
 .sub-menu__link {
 	font-size: 16px;
 	color: #fff;
@@ -83,32 +94,37 @@ body {
 	padding: 50px;
 	margin-top: 50px;
 }
-.items {
-}
+
+.items {}
+
 .items__item {
 	padding: 15px;
 	text-align: center;
 	font-weight: 700;
 	color: #fff;
 }
+
 .items__item--bg-brown {
 	background-color: #794f45;
 }
+
 .items__item--bg-purple {
 	background-color: #77608d;
 
 }
+
 .items__item--bg-green {
 	background-color: #7A956B;
-}   
+}
 
 
 
 .auto {
 	z-index: 2;
 }
-.auto__container {
-}
+
+.auto__container {}
+
 .logo {
 	position: absolute;
 	font-family: 'SupernaturalKnight';
@@ -121,118 +137,136 @@ body {
 .auto__body {
 	max-width: 350px;
 }
-.auto__parts {
-}
-.parts {
-}
+.auto__parts {}
+
+.parts {}
+
 .parts img {
 	max-width: 70px;
 }
-.parts__roof {
-	
-}
+
+.parts__roof {}
+
 .parts__roof--1 {
 	position: absolute;
 	top: 650px;
 	right: 800px;
 }
+
 .parts__roof--2 {
 	position: absolute;
 	top: 650px;
 	right: 730px;
 }
+
 .parts__roof--3 {
 	position: absolute;
 	top: 650px;
 	right: 660px;
 }
+
 .parts__roof--4 {
 	position: absolute;
 	top: 650px;
 	right: 590px;
 }
+
 .parts__roof--5 {
 	position: absolute;
 	top: 650px;
 	right: 520px;
 }
-.parts__windows {
-}
+
+.parts__windows {}
+
 .parts__windows--1 {
 	position: absolute;
 	top: 712px;
 	right: 800px;
 }
+
 .parts__windows--2 {
 	position: absolute;
 	top: 712px;
 	right: 730px;
 }
+
 .parts__windows--3 {
 	position: absolute;
 	top: 712px;
 	right: 660px;
 }
+
 .parts__windows--4 {
 	position: absolute;
 	top: 712px;
 	right: 590px;
 }
+
 .parts__windows--5 {
 	position: absolute;
 	top: 712px;
 	right: 520px;
 }
-.parts__hood {
-}
+
+.parts__hood {}
+
 .parts__hood--1 {
 	position: absolute;
 	top: 776px;
 	right: 800px;
 }
+
 .parts__hood--2 {
 	position: absolute;
 	top: 776px;
 	right: 730px;
 }
+
 .parts__hood--3 {
 	position: absolute;
 	top: 776px;
 	right: 660px;
 }
+
 .parts__hood--4 {
 	position: absolute;
 	top: 776px;
 	right: 590px;
 }
+
 .parts__hood--5 {
 	position: absolute;
 	top: 776px;
 	right: 520px;
 }
-.parts__wheels {
-	
-}
+
+.parts__wheels {}
+
 .parts__wheels--1 {
 	position: absolute;
 	top: 840px;
 	right: 800px;
 }
+
 .parts__wheels--2 {
 	position: absolute;
 	top: 840px;
 	right: 730px;
 }
+
 .parts__wheels--3 {
 	position: absolute;
 	top: 840px;
 	right: 660px;
 }
+
 .parts__wheels--4 {
 	position: absolute;
 	top: 840px;
 	right: 590px;
 }
+
 .parts__wheels--5 {
 	position: absolute;
 	top: 840px;
