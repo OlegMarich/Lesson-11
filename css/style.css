@@ -15,7 +15,6 @@ body {
 [class*='__container'] {
 	max-width: 800px;
 	margin: 0 auto;
-
 }
 
 .wrapper {
@@ -120,9 +119,8 @@ body {
 
 
 .auto {
-	z-index: 2;
+	z-index: 1;
 }
-
 .auto__container {}
 
 .logo {
