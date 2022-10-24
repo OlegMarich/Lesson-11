@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'SupernaturalKnight';
+	src: url(../fonts/SupernaturalKnight.woff2) format('woff2'),
+		  url(../fonts/SupernaturalKnight.woff) format('woff');
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+	  }
+
 body {
 	padding: 50px;
 	font-family: Arial, Helvetica, sans-serif
@@ -100,7 +109,15 @@ body {
 }
 .auto__container {
 }
-
+.logo {
+	position: absolute;
+	font-family: 'SupernaturalKnight';
+	font-size: 50px;
+	top: 850px;
+	right: 546px;
+	color: #fff;
+	text-shadow: -1px -18px 6px #666;
+}
 .auto__body {
 	max-width: 350px;
 }
